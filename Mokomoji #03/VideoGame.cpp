@@ -42,7 +42,6 @@ void game::VideoGame::setReleaseDate(unsigned int yearOfRelease)
         releaseDate = yearOfRelease;
     else
         throw invalid_argument("Wrong release year!");
-
 }
 
 void game::VideoGame::setMultiplayer(bool isOnline)
