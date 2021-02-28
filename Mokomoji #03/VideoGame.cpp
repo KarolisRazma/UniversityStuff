@@ -86,7 +86,7 @@ string game::VideoGame::toString()
 
 string game::VideoGame::checkIfMultiplayer()
 {
-    if(isMultiplayer)
+    if(getIsMultiplayer())
         return "Yes";
     else
         return "No";
